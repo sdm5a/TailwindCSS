@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login FarmMan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="box flex h-[100vh] w-[100vw]">
+        <div class="left-box">
+            <img class="h-[100vh] w-[50vw] " src="dish.jpg" alt="Dish">
+        </div>
+
+        <div class="right-box flex flex-col justify-center ml-52 ">
+            <p class="mb-6 font-bold text-lg"><i class="fa-solid text-red-500 text-lg fa-caret-up"></i>FarmMan</p>
+            <p class="text-3xl font-bold">Hello,</p>
+            <p class="text-3xl font-bold mb-10">Welcome Back</p>
+            <p class="font-semibold mb-4">Login to manage your account</p>
+            <input type="email" placeholder="Email" class="h-[40px] w-[350px] border-2 rounded mb-3 placeholder:p-2 placeholder:text-sm" >
+            <input type="password" placeholder="Password" class="h-[40px] w-[350px] border-2 rounded mb-3 placeholder:p-2 placeholder:text-sm">
+            <p class="text-blue-600 mb-3 text-sm cursor-pointer">Forgot your password ?</p>
+            <button class="w-[350px] h-[40px] bg-red-700 text-white rounded">Login</button>
+            <div class="flex flex-col justify-center items-center">
+                <p class="my-4 font-bold text-sm">OR</p>
+                <div class="text-2xl font-bold mb-3  space-x-5">
+                    <i class="fa-brands fa-facebook "></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <p class="font-semibold text-sm">don't have an account? <span class="text-blue-700 cursor-pointer">Sign Up here</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
